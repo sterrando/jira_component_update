@@ -43,4 +43,4 @@ Example of parsing an excel file and uploading (replace your credentials and fil
     j.log_in()
     j.load_components(component_dict)
 ```
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sterrando.sterrando)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sterrando.jira_component_update)
