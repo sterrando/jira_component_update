@@ -5,9 +5,9 @@ Tested with API Rev. 2.
 
 The usage is straightforward: 
 
-* Create a jira_component_tools instance providing your Jira username, passCODE, project name, URL. The uri is optional and points by default to ```/rest/api/2/search```. Everything is a string.
+* Create a jira_component_tools instance providing your Jira username, passCODE, project name, URL. The uri is optional and defaults to ```/rest/api/2/search```. Everything is a string.
 * Call the ```log_in()``` method
-* Upload the components with the ```load_components()``` method, passing a dictionary in the form ```name:description```
+* Upload the components with the ```load_components()``` method, passing a dictionary in the form ```{name:description}```
 
 Example of parsing an excel file and uploading (replace your credentials and filename):
 
